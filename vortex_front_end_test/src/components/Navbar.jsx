@@ -1,6 +1,6 @@
 import {useState} from 'react';
 
-import { close, logovortex, menu } from '../assets';
+import { close, logovortex, menu, whatsapp, instagram, tiktok } from '../assets';
 
 import { navLinks } from "../constants";
 
@@ -17,13 +17,34 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length -1 ? 'mr-0' : 'mr-10'} text-white`}
+            className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length -1 ? 'mr-0' : 'mr-20'} text-white`}
           >
             <a href={`#${nav.id}`}>
               {nav.title}
             </a>
           </li>
         ))}
+      </ul>
+
+      <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
+
+        <li className={`cursor-pointer ${'mr-10'}`} >
+          <a target="_blank" href="https://www.youtube.com/watch?v=cHRfbiwdheg">
+            <img src={whatsapp} alt='Whatsapp logo' href="a" />
+          </a>
+        </li>
+
+        <li className={`cursor-pointer ${'mr-10'}`} >
+          <a target="_blank" href="https://www.youtube.com/watch?v=zWHygvvSge8">
+            <img src={instagram} alt='Instagram logo'/>
+          </a>
+        </li>
+
+        <li>
+          <a target="_blank" href="https://www.youtube.com/watch?v=uydfxLws3j8">
+            <img src={tiktok} alt='TikTok logo'/>
+          </a>
+        </li>
       </ul>
 
       <div className='sm:hidden flex flex-1 justify-end items-center'>
