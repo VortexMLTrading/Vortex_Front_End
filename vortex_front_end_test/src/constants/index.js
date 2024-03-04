@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { teamplayer01, teamplayer02, teamplayer03, teamplayer04, people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 //basic plain data that can be changed by nonprogrammers
 
@@ -44,6 +44,31 @@ export const features = [
       "A balance transfer credit card can save you a lot of money in interest charges.",
   },
 ];
+
+export const teamplayers = [
+  {
+    id: "teamplayer-1",
+    img: teamplayer01,
+    name: "Caique M.Gomes",
+    title: "Fullstack Developer",
+  },
+  {
+    id: "teamplayer-2",
+    img: teamplayer02,
+    name: "Leonardo Vieira",
+    title: "Software Developer",
+  },
+  { id: "teamplayer-3",
+    img: teamplayer03,
+    name: "Bernar Avila",
+    title: "UI/UX Designer",
+  },
+  { id: "teamplayer-4",
+    img: teamplayer04,
+    name: "Patrick Marangone",
+    title: "Software Developer",
+  },
+]
 
 export const feedback = [
   {
