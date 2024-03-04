@@ -13,11 +13,11 @@ const Navbar = () => {
       <img src={logovortex} alt="hoobank"
       className="w-[154px] h-[34px]" />
 
-      <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
+      <ul className='list-none sm:flex hidden justify-end items-center flex-1 '>
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length -1 ? 'mr-0' : 'mr-20'} text-white`}
+            className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length -1 ? 'mr-0' : 'mr-20'} text-white transition duration-200 hover:scale-110`}
           >
             <a href={`#${nav.id}`}>
               {nav.title}

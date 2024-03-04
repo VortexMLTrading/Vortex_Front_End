@@ -1,14 +1,15 @@
 import React from 'react';
 import styles from "../style";
-import { discount, robot } from "../assets";
+import { robot } from "../assets";
+import Button from "./Button"
 
 
 const Hero = () => (
   <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
-    <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
+    <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-0`}>
 
       <div className="flex flex-row justify-between items-center w-full">
-        <h1 className="flex-1 font-poppins font-semibold ss:text-[50px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
+        <h1 className="flex-1 font-poppins font-semibold ss:text-[50px] text-[32px] text-white ss:leading-[100px] leading-[40px] ">
           Transformando <span className="text-gradient">dados</span> <br className="sm:block hidden"/>
           em <span className="text-gradient">oportunidades</span>
         </h1>
@@ -19,9 +20,7 @@ const Hero = () => (
         Transforme a sua vida financeira através do nosso BOT impulsionado por Machine Learning.
       </p>
 
-      <div className="flex flex-row items-center py-[6px] px-6 bg-blue-gradient text-black font-bold rounded-[20px] mb-5 mt-5 ss:text-[32px]">
-        <p>Conheça os BOTs</p>
-      </div>
+      <Button styles="mt-10"></Button>
 
     </div>
 
