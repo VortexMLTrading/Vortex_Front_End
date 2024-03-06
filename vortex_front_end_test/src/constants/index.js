@@ -25,23 +25,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Praticidade",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Basta escolher seu plano, contatar um de nossos agentes e depositar na conta. Nosso bot faz o resto por você.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "100% frio e calculista",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Ao contrario de investidores comuns, nosso bot segue padrões e estatística a risca, não cedendo para emoções ou crenças de mercado.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Transparência total",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Todas as transações feitas pelos nossos bots podem ser visualizadas pelo investidor.",
   },
 ];
 
