@@ -1,4 +1,4 @@
-import { teamplayer01, teamplayer02, teamplayer03, teamplayer04, people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { teamplayer01, teamplayer02, teamplayer03, teamplayer04, people01, people02, people03, instagram, tiktok, send, shield, star, whatsapp  } from "../assets";
 
 //basic plain data that can be changed by nonprogrammers
 
@@ -193,41 +193,17 @@ export const footerLinks = [
 export const socialMedia = [
   {
     id: "social-media-1",
+    icon: whatsapp,
+    link: "https://www.whatsapp.com/",
+  },
+  {
+    id: "social-media-2",
     icon: instagram,
     link: "https://www.instagram.com/",
   },
   {
-    id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-  },
-  {
     id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
-  {
-    id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
-  },
-];
-
-export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
+    icon: tiktok,
+    link: "https://www.tiktok.com/",
   },
 ];
