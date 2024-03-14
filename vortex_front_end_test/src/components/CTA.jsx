@@ -10,7 +10,7 @@ const CTA = () => (
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Tudo que você precisa para investir em criptomoedas de maneira consistente e sem preocupações.</p>
     </div>
 
-    <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
+    <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-8`}>
       <Button />
     </div>
   </section>
