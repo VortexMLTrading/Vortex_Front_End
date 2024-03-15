@@ -20,7 +20,7 @@ const Team = () => (
       priorizamos a segurança e a agilidade nas transações para os nossos bots. Com isso em mente, contamos com membros especializados,
        desde designers de UX/UI até programadores especializados em backend e criptomoedas.</p>
 
-    <div className="flex flex-wrap justify-center w-full feedback-container relative z-[1] mt-10 ml-12 gap-20 sm:gap-0">
+    <div className="flex flex-wrap justify-center w-full feedback-container relative z-[1] mt-10 ml-12 gap-20 sm:gap-0 ">
       {teamplayers.map((card) => <TeamCard key={card.id} {...card} />)}
     </div>
   </section>
