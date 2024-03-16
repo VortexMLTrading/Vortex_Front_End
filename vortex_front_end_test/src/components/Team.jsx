@@ -7,7 +7,7 @@ import TeamCard from './TeamCard';
 
 const Team = () => (
   
-  <section className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6 mt-20`}>
+  <section id="equipe" className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6 mt-20`}>
 
     <div className="flex flex-row justify-between items-center text-center w-full">
       <h1 className="flex-1 font-poppins font-semibold ss:text-[50px] text-[32px] text-white ss:leading-[100px] leading-[40px] mb-10">

@@ -20,7 +20,7 @@ const FeatureCard = ( { icon, title, content, index }) => (
 
 const Business = () => {
   return (
-    <section id="features" className={layout.section}>
+    <section id="bot" className={layout.section}>
         <div className={layout.sectionInfo}>
             <h2 className={styles.heading2}>
                 Deixe nossos <span className="text-gradient text-[44px]">BOTS</span> gerenciarem sua carteira, enquanto<br className="sm:block hidden" />você foca crescer <span className="text-gradient text-[44px]"> <br />seu negócio</span>.

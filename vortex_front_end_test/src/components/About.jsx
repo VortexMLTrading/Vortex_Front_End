@@ -4,7 +4,7 @@ import { logo_grande } from "../assets";
 import Button from "./Button"
 
 const About = () => (
-  <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} `}>
+  <section id="sobre" className={`flex md:flex-row flex-col ${styles.paddingY} `}>
     <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-0 px-16 `}>
 
       <div className="flex flex-row justify-between items-center w-full">
