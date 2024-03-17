@@ -27,7 +27,7 @@
 </p>
 
 <p align="center" justify-content="center">
-    <img width="40%" src="https://github.com/VortexMLTrading/Vortex_Front_End/vortex_front_end_test/src/assets/img_exemplo.png">
+    <img width="40%" src="https://github.com/VortexMLTrading/vortex_front_end_test/src/assets/img_exemplo.png">
 </p>
 
 ## Overview
