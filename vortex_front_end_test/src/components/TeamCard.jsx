@@ -1,7 +1,7 @@
 
 const TeamCard = ({ name, title, img, link }) => (
 
-  <div className="flex flex-col items-center justify-center pb-10 bg-white mr-10 w-[16rem] h-[20rem] max-w-sm bg-gray-700 bg-opacity-90 border border-gray-700 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  <div className="flex flex-col items-center justify-center pb-10 bg-black-gradient-2 mr-10 w-[16rem] h-[20rem] max-w-sm bg-gray-700 bg-opacity-90 border border-gray rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
   <img src={img} alt={name} className="w-[8rem] h-[8rem] rounded-full w-24 h-24 mt-6 mb-6 rounded-full shadow-lg" />
   <div className="flex flex-col ml-4 items-center">
     <h4 className="font-poppins font-semibold text-gray-900 text-[20px] leading-[32px]">
