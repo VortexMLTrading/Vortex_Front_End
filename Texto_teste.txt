@@ -1,1 +1,1 @@
-first git commit test
+precisa criar um dist novo para ter ele atuaizado com as mudanças atuais dos dolders principais   ----> npm run build
