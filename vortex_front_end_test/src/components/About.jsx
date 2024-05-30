@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from "../style";
 import { logo_grande } from "../assets";
-import Button from "./Button"
 
 const About = () => (
   <section id="sobre" className={`flex md:flex-row flex-col ${styles.paddingY} `}>
