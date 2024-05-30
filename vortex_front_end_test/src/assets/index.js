@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import logovortex from "./logovortex.svg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
+
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
